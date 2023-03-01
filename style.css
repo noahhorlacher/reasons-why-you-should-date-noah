@@ -1,0 +1,48 @@
+slide {
+    display: none;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: sans-serif;
+
+    box-sizing: border-box;
+}
+
+slide[data-index="1"]{
+    padding: 1rem;
+}
+
+h1, h2 {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+slide.active {
+    display: block;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+input[type="button"]{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    display: block;
+    padding: .3rem .8rem;
+}
